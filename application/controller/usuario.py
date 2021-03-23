@@ -1,5 +1,6 @@
 from application.model.dao.usuario import UsuarioDAO
 from flask import render_template
+from main import app
 
 #Administrador solicita visualizar todos os usuários (HTTP REQUEST)
 #Controlador recebe essa solicitação (entry-point) (HTTP REQUEST)
